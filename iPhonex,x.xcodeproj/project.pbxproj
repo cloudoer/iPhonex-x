@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA50B551984BD8D007EF3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA50B541984BD8D007EF3AC /* Foundation.framework */; };
+		FEA50B571984BD8D007EF3AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA50B561984BD8D007EF3AC /* UIKit.framework */; };
+		FEA50B611984BD8D007EF3AC /* iPhonex_x.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA50B601984BD8D007EF3AC /* iPhonex_x.h */; };
+		FEA50B631984BD8D007EF3AC /* iPhonex_x.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA50B621984BD8D007EF3AC /* iPhonex_x.m */; };
+		FEA50B6D1984BE23007EF3AC /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA50B6C1984BE23007EF3AC /* libsubstrate.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEA50B511984BD8D007EF3AC /* libiPhonex,x.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libiPhonex,x.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA50B541984BD8D007EF3AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEA50B561984BD8D007EF3AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEA50B5B1984BD8D007EF3AC /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		FEA50B5C1984BD8D007EF3AC /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		FEA50B5E1984BD8D007EF3AC /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		FEA50B5F1984BD8D007EF3AC /* iPhonex,x-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhonex,x-Prefix.pch"; sourceTree = "<group>"; };
+		FEA50B601984BD8D007EF3AC /* iPhonex_x.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhonex_x.h; sourceTree = "<group>"; };
+		FEA50B621984BD8D007EF3AC /* iPhonex_x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhonex_x.m; sourceTree = "<group>"; };
+		FEA50B661984BD8D007EF3AC /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/lib/0xdeadfa11; sourceTree = "<group>"; };
+		FEA50B6C1984BE23007EF3AC /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA50B4D1984BD8D007EF3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA50B6D1984BE23007EF3AC /* libsubstrate.dylib in Frameworks */,
+				FEA50B551984BD8D007EF3AC /* Foundation.framework in Frameworks */,
+				FEA50B571984BD8D007EF3AC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA50B471984BD8D007EF3AC = {
+			isa = PBXGroup;
+			children = (
+				FEA50B581984BD8D007EF3AC /* iPhonex,x */,
+				FEA50B531984BD8D007EF3AC /* Frameworks */,
+				FEA50B521984BD8D007EF3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA50B521984BD8D007EF3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA50B511984BD8D007EF3AC /* libiPhonex,x.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA50B531984BD8D007EF3AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEA50B6C1984BE23007EF3AC /* libsubstrate.dylib */,
+				FEA50B541984BD8D007EF3AC /* Foundation.framework */,
+				FEA50B561984BD8D007EF3AC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA50B581984BD8D007EF3AC /* iPhonex,x */ = {
+			isa = PBXGroup;
+			children = (
+				FEA50B601984BD8D007EF3AC /* iPhonex_x.h */,
+				FEA50B621984BD8D007EF3AC /* iPhonex_x.m */,
+				FEA50B591984BD8D007EF3AC /* Package */,
+				FEA50B5D1984BD8D007EF3AC /* Supporting Files */,
+			);
+			path = "iPhonex,x";
+			sourceTree = "<group>";
+		};
+		FEA50B591984BD8D007EF3AC /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				FEA50B5A1984BD8D007EF3AC /* DEBIAN */,
+				FEA50B641984BD8D007EF3AC /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		FEA50B5A1984BD8D007EF3AC /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				FEA50B5B1984BD8D007EF3AC /* control.txt */,
+				FEA50B5C1984BD8D007EF3AC /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		FEA50B5D1984BD8D007EF3AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA50B5E1984BD8D007EF3AC /* PackageVersion.plist */,
+				FEA50B5F1984BD8D007EF3AC /* iPhonex,x-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA50B641984BD8D007EF3AC /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				FEA50B651984BD8D007EF3AC /* lib */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		FEA50B651984BD8D007EF3AC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FEA50B661984BD8D007EF3AC /* 0xdeadfa11 */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FEA50B4E1984BD8D007EF3AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA50B611984BD8D007EF3AC /* iPhonex_x.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FEA50B501984BD8D007EF3AC /* iPhonex,x */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA50B691984BD8D007EF3AC /* Build configuration list for PBXNativeTarget "iPhonex,x" */;
+			buildPhases = (
+				FEA50B4C1984BD8D007EF3AC /* Sources */,
+				FEA50B4D1984BD8D007EF3AC /* Frameworks */,
+				FEA50B4E1984BD8D007EF3AC /* Headers */,
+				FEA50B4F1984BD8D007EF3AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPhonex,x";
+			productName = "iPhonex,x";
+			productReference = FEA50B511984BD8D007EF3AC /* libiPhonex,x.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA50B481984BD8D007EF3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					FEA50B501984BD8D007EF3AC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = FEA50B4B1984BD8D007EF3AC /* Build configuration list for PBXProject "iPhonex,x" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEA50B471984BD8D007EF3AC;
+			productRefGroup = FEA50B521984BD8D007EF3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA50B501984BD8D007EF3AC /* iPhonex,x */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEA50B4F1984BD8D007EF3AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA50B4C1984BD8D007EF3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA50B631984BD8D007EF3AC /* iPhonex_x.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEA50B671984BD8D007EF3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		FEA50B681984BD8D007EF3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		FEA50B6A1984BD8D007EF3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhonex,x/iPhonex,x-Prefix.pch";
+				INSTALL_PATH = /usr/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		FEA50B6B1984BD8D007EF3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhonex,x/iPhonex,x-Prefix.pch";
+				INSTALL_PATH = /usr/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA50B4B1984BD8D007EF3AC /* Build configuration list for PBXProject "iPhonex,x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA50B671984BD8D007EF3AC /* Debug */,
+				FEA50B681984BD8D007EF3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA50B691984BD8D007EF3AC /* Build configuration list for PBXNativeTarget "iPhonex,x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA50B6A1984BD8D007EF3AC /* Debug */,
+				FEA50B6B1984BD8D007EF3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA50B481984BD8D007EF3AC /* Project object */;
+}
